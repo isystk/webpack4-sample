@@ -1,7 +1,7 @@
 {
   "name": "html-sample",
   "version": "1.0.0",
-  "description": "Webデザイン サンプル\r ====",
+  "description": "WebPack4 Sample",
   "main": "index.js",
   "scripts": {
     "build": "npx webpack",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://isystk:yoshitaka0615@github.com/isystk/html-sample.git"
+    "url": "git+https://github.com/isystk/webpack4-sample.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/isystk/html-sample/issues"
+    "url": "https://github.com/isystk/webpack4-sample/issues"
   },
-  "homepage": "https://github.com/isystk/html-sample#readme",
+  "homepage": "https://github.com/isystk/webpack4-sample#readme",
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.12.1",
     "clean-webpack-plugin": "^3.0.0",
