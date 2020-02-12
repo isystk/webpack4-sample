@@ -2,7 +2,7 @@ $(function() {
 	
 	// ページトップに戻るボタンを表示
 	(function () {
-		$('<span id="page-top" class="link"><a href="#"><i class="fas fa-chevron-up"></i></a></span>').appendTo('body');
+		$('<span id="page-top" class="link"><a href="#">^</a></span>').appendTo('body');
 		var topBtn = $('#page-top'),
 			showFlg = false;
 		var scroll = function (scrollTop) {
