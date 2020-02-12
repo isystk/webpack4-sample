@@ -4,8 +4,8 @@
   "description": "WebPack4 Sample",
   "main": "index.js",
   "scripts": {
-    "build": "npx webpack",
-    "dev": "npx webpack-dev-server"
+    "build": "npx webpack --mode production",
+    "dev": "npx webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",

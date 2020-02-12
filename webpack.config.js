@@ -1,5 +1,5 @@
-const src = __dirname + "/src";
-const dist = __dirname + "/dist/"
+const src = __dirname + '/src';
+const dist = __dirname + '/dist/'
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
@@ -28,7 +28,7 @@ const webpackConfig = {
     rules: [
       {
         test: /\.html$/,
-        loader: "html-loader"
+        loader: 'html-loader'
       },
       {
         test: /\.css$/,
@@ -62,7 +62,7 @@ const webpackConfig = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: "css/[name].css" // Dist
+      filename: 'css/[name].css' // Dist
     })
   ],
   optimization: {
