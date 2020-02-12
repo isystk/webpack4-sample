@@ -1,5 +1,5 @@
 {
-  "name": "html-sample",
+  "name": "webpack4-sample",
   "version": "1.0.0",
   "description": "WebPack4 Sample",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isystk/webpack4-sample.git"
+    "url": "https://github.com/isystk/webpack4-sample.git"
   },
   "keywords": [],
   "author": "",

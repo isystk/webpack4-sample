@@ -1,7 +1,7 @@
-import './css/normalize.css';
-import './css/index.css';
+import './assets/css/normalize.css';
+import './assets/css/index.css';
 
-var $ = require('./js/jquery-3.4.1.min.js');
+var $ = require('./assets/js/jquery-3.4.1.min.js');
 window.$ = $;
 window.jQuery = $;
-require('./js/index.js');
+require('./assets/js/index.js');
