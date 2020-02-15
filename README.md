@@ -4,7 +4,7 @@ webpack4 sample
 ## Description
 
 ## Demo
-https://design.isystk.com/html/layout.html
+https://design.isystk.com/webpack4/
 
 ## VS. 
 
@@ -14,14 +14,17 @@ https://design.isystk.com/html/layout.html
 
 ## Install
 
-yarn install
+``` bash
+# install
+$ yarn install
 
 # static generate
-yarn run build
+$ yarn run build
 
 # server start
-yarn run dev
-open http://localhost:3000/
+$ yarn run dev
+$ open http://localhost:3000/
+```
 
 ## Contribution
 
