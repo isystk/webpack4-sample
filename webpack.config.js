@@ -11,8 +11,8 @@ const webpackConfig = {
   context: src,
   entry: {
     index: './index.js',
-    sample1: './sample1.js',
-    sample2: './sample2.js',
+    blog: './blog.js',
+    company: './company.js',
   },
   output: {
     path: dist,
@@ -62,7 +62,7 @@ const webpackConfig = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin(),
     new MiniCssExtractPlugin({
-      filename: 'css/[name].css' // Dist
+      filename: 'css/common.css' // Dist
     })
   ],
   optimization: {
