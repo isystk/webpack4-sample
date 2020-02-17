@@ -1,0 +1,11 @@
+
+# design
+RewriteEngine On
+RewriteBase /webpack4/
+RewriteCond %{REQUEST_URI} !/webpack4/dist
+RewriteCond %{REQUEST_URI} !/webpack4/git-hook.php
+RewriteRule ^(.*)$ dist/$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /webpack4/ [L,R=301]
+
