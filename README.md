@@ -19,7 +19,7 @@ https://design.isystk.com/webpack4/
 $ yarn install
 
 # static generate
-$ yarn run build
+$ yarn run generate
 
 # server start
 $ yarn run dev
