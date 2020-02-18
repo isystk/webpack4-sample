@@ -4,7 +4,7 @@
   "description": "WebPack4 Sample",
   "main": "index.js",
   "scripts": {
-    generate: "npx webpack --mode production",
+    "generate": "npx webpack --mode production",
     "dev": "npx webpack-dev-server --mode development"
   },
   "repository": {
